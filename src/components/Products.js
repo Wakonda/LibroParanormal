@@ -149,7 +149,7 @@ class Products extends React.Component {
 		)
 	}
 
-	render() {console.log($this.state);
+	render() {console.log(this.state);
 		const { error, isLoaded, items } = this.state;
 
 		if (error) {
